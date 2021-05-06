@@ -15,6 +15,29 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.sidebar-brand {
+    height: 90px;
+    padding: 1rem 0rem 1rem 2rem;
+    color: #fff
+}
+
+.sidebar-brand span {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.sidebar-menu a {
+    display: block;
+    color: #fff;
+    font-size: 1.2rem
+}
+
+.sidebar-menu li {
+    width: 100%;
+    margin-bottom: 1.7rem;
+    padding-left: 2rem;
+}
+
 .sidebar {
     width: 345px;
     position: fixed;
@@ -22,4 +45,14 @@
     top: 0;
     height: 100%;
     background: var(--main-color);
+}
+
+.sidebar a span:first-child{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+
+.main-content {
+    margin-left: 345px;
 }
